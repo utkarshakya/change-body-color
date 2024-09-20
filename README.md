@@ -1,2 +1,2 @@
-# change-body-color
-Simple Fun Project Implementing Javascript.
+# Change Body Color
+A Simple Web Project Implemented Using HTML, CSS & Javascript.
