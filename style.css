@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+
+.caveat {
+    font-family: "Caveat", cursive;
+    font-size: smaller;
+    font-weight: 100;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    padding: 100px 20px 0px 20px;
+    /* background-color: #000; */
+}
+
+#container-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+#container-2 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.color-button {
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    box-shadow: 2px 2px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 5ms;
+}
+
+.color-button:hover {
+    box-shadow: none;
+}
+
+#hash-ffc2c2 {
+    background-color: #ffc2c2;
+}
+
+#hash-b8ffca {
+    background-color: #b8ffca;
+}
+
+#hash-caf4ff {
+    background-color: #cafff8;
+}
+
+#hash-f6ffcd {
+    background-color: #f6ffcd;
+}
+
+#hash-ffd1fb {
+    background-color: #ffd1fb;
+}
+
+#hash-ffd8ac {
+    background-color: #ffd8ac;
+}
+
+#hash-bbb {
+    background-color: #bbb;
+}
+
+
+
+#container-3 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.link-button {
+    padding: 15px 30px;
+    border: 2px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    box-shadow: 2px 2px 5px;
+    transition: all 5ms;
+}
+
+.link-button:hover {
+    box-shadow: none;
+}
+
+.signature {
+    display: flex;
+    position: fixed;
+    bottom: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+@media (max-width: 425px) {
+    h1 {
+        font-size: x-large;
+    }
+
+    p {
+        font-size: small;
+    }
+
+    .color-button {
+        width: 80px;
+        height: 80px;
+        border: 1px solid;
+    }
+
+    .link-button {
+        padding: 10px 20px;
+        border: 1px solid;
+        font-weight: 500;
+        font-size: small;
+        box-shadow: -2px -2px 5px;
+    }
+
+    #container-3 {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 20px;
+    }
+
+    .signature{
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    .caveat{
+        font-size: xx-small;
+    }
+}
