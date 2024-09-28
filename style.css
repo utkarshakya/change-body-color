@@ -4,7 +4,7 @@
 
 .caveat {
     font-family: "Caveat", cursive;
-    font-size: smaller;
+    font-size: medium;
     font-weight: 100;
     font-style: normal;
 }
@@ -23,8 +23,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 80px;
-    padding: 100px 20px 0px 20px;
-    /* background-color: #000; */
+    padding: 0px 20px;
 }
 
 #container-1 {
@@ -84,8 +83,6 @@ body {
     background-color: #bbb;
 }
 
-
-
 #container-3 {
     display: flex;
     justify-content: center;
@@ -109,10 +106,17 @@ body {
 
 .signature {
     display: flex;
-    position: fixed;
-    bottom: 5px;
-    color: black;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.signature a{
+    color: rgba(0, 0, 0, 0.5);
     text-decoration: none;
+    transition: all 0.3s linear;
+}
+.signature a:hover{
+    color: rgba(0, 0, 0, 0.9);
 }
 
 @media (max-width: 425px) {
@@ -142,10 +146,6 @@ body {
         flex-direction: column;
         flex-wrap: nowrap;
         gap: 20px;
-    }
-
-    .signature{
-        color: rgba(0, 0, 0, 0.5);
     }
 
     .caveat{
